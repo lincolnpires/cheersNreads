@@ -4,6 +4,7 @@
 # The above will handle all files NOT found below
 #
 
+*.bsdesign binary
 *.cs       text diff=csharp
 *.cshtml   text diff=html
 *.csx      text diff=csharp
