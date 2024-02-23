@@ -1,0 +1,24 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "CosmosDb": {
+    "EndpointUri": "https://<your subdomain>.documents.azure.com:443/",
+    "PrimaryKey": "<your key>",
+    "DatabaseName": "<your db>"
+  },
+  "SQLServer": {
+    "Server": "<your subdomain>.database.windows.net",
+    "Database": "<your db>",
+    "User": "<your user>",
+  },
+  "ConnectionStrings": {
+    "LocalDb": "Server=(localdb)\\mssqllocaldb;Database=CheersAndReads;Trusted_Connection=True;MultipleActiveResultSets=true",
+    "CosmosDb": "<your connection>",
+    "SQLServer": "<your connection>"
+  }
+}
